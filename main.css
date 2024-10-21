@@ -1,15 +1,25 @@
 body {
-    display: flex;
-    flex-direction: column;  
-    align-items: center;     
+    display: grid;
+    grid-template-columns: auto;  
+    justify-items: auto;     
     max-width: 480px;
     max-height: none;        
     margin: 0 auto; 
 }
+
 .header {
     background-color: #011827;
     width: 480px;
     height: 144px;
+    margin: 0;
+    top: 0;
+}
+
+.logoContainer {
+    display: flex;
+    height: 144px;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
 img[alt="logo"] {
@@ -17,28 +27,23 @@ img[alt="logo"] {
     height: 82px;
     margin-left: 27px;
     border-radius: 17px;
+    margin-top: 26px;    
 }
 
 .logoText {
     font-family: 'Roboto', sans-serif;
-    size: 24px;
+    font-size: 24px;
     list-style: 28.13px;
     font-weight: 700;
     color: #FFFFFF;
     width: 78px;
     height: 84px;
-}
-.logoContainer {
-    display: flex;
-    flex-direction: row;
-    margin-top: 26px;
-    left: 27px;
-    height: 82px;
-
+    margin-top: 25px;
+    margin-left: 13px;
 }
 
 img[alt="hackerGuy"] {
-    width: 480px;
+    width: 100%;
     height: 274px;
     top: 144px;
 }
