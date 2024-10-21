@@ -1,18 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;     
+    max-width: 480px;
+    max-height: none;        
+    margin: 0 auto; 
+}
 .header {
     background-color: #011827;
     width: 480px;
     height: 144px;
 }
 
-img[alt="loggo"] {
+img[alt="logo"] {
     width: 128px;
     height: 82px;
-    top: 26px;
-    left:27px;
+    margin-left: 27px;
     border-radius: 17px;
 }
 
-img[alt="hacker-guy"] {
+.logoText {
+    font-family: 'Roboto', sans-serif;
+    size: 24px;
+    list-style: 28.13px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 78px;
+    height: 84px;
+}
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 26px;
+    left: 27px;
+    height: 82px;
+
+}
+
+img[alt="hackerGuy"] {
     width: 480px;
     height: 274px;
     top: 144px;
