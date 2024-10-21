@@ -1,7 +1,7 @@
 body {
     display: grid;
-    grid-template-columns: auto;  
-    justify-items: auto;     
+    grid-template-columns: 1fr;  
+    justify-items: center;     
     max-width: 480px;
     max-height: none;        
     margin: 0 auto; 
@@ -46,4 +46,18 @@ img[alt="hackerGuy"] {
     width: 100%;
     height: 274px;
     top: 144px;
+}
+
+.siteBtn {
+    background-color: #8ACFE5;
+
+    width: 308px;
+    height: 66px;
+    margin-top: 50px;    
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 28.13px;
+    font-display: center;
+    border-radius: 5px;
 }
