@@ -4,12 +4,14 @@ body {
     justify-items: center;     
     max-width: 480px;
     max-height: none;        
-    margin: 0 auto; 
+    margin: 0; 
+    padding: 0;
+    top: 0;
 }
 
 .header {
     background-color: #011827;
-    width: 480px;
+    width: 100%;
     height: 144px;
     margin: 0;
     top: 0;
@@ -50,14 +52,31 @@ img[alt="hackerGuy"] {
 
 .siteBtn {
     background-color: #8ACFE5;
-
     width: 308px;
     height: 66px;
-    margin-top: 50px;    
-    display: block;
+    margin-top: 50px; 
+    border-radius: 5px;  
+    border: none;   
+    display: flex;            
+    align-items: center;       
+    justify-content: center;
+    font-size: 24px; 
+    line-height: 28.13px; 
+}
+
+.btn1Text {
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    line-height: 28.13px;
-    font-display: center;
-    border-radius: 5px;
+    color: #011827;
+    font-weight: 700;
+}
+
+.onlineChallenges {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    text-align: center;
+    color: #36769D;
+    width: 129px;
+    height: 19.97px;
 }
