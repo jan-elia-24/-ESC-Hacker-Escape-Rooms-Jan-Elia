@@ -10,6 +10,7 @@ body {
     width: 480px; 
     margin: 0 auto; 
     padding: 0;
+    max-width: 100%;
 }
 
 .header {
@@ -89,8 +90,9 @@ img[alt="hackerGuy"] {
     display: flex;
     flex-direction: row;
     justify-items:center;
-    gap: 22.41px;
     margin-top: 67.03px;
+    margin-left: 21px;
+    margin-right: 20px;
     width: 439px;
     height: 139px;
 }
@@ -99,13 +101,13 @@ img[alt="johnDoe"]{
     border-radius: 873px;  
     width: 73.34px;
     height: 72px;
-    margin-left: 21px;
+    margin-top: 3px;
 }
 
 .john-Text {
     display: grid;
     grid-template-columns: 2fr;
-    margin-left: 22.4px;
+    padding-left: 20.2px;
 }
 
 .jdText1{
@@ -117,7 +119,8 @@ img[alt="johnDoe"]{
     font-weight: 400;
     line-height: 28.13px;
     text-align: left;
-    
+    margin: 0;
+    padding: 0;
 }
 
 .jdText2{
@@ -126,8 +129,9 @@ img[alt="johnDoe"]{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
+    color: #000000;
     line-height: 21.09px;
     text-align: left;
-    margin-top: 118px;
+    margin-top: -17px;
 }
 
