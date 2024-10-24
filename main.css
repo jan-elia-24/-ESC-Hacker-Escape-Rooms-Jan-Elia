@@ -151,10 +151,13 @@ img[alt="johnDoe"] {
     list-style-type: none;
     flex-direction: row;
     width: 480px;
-    overflow-x: scroll;
+    overflow: hidden; 
     padding: 0;
     margin: 0;
-    justify-content: left;
+}
+
+.roomList:hover {
+    overflow-x: auto; 
 }
 
 .roomItem {
@@ -166,15 +169,16 @@ img[alt="johnDoe"] {
     width: 363px;
     height: 446px;
     margin-right: 37.97px;
-    padding: 0px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-}
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 
+    0px -4px 8px rgba(0, 0, 0, 0.1), 
+    4px 0px 8px rgba(0, 0, 0, 0.1),
+    -4px 0px 8px rgba(0, 0, 0, 0.1);}
 
 img[alt="picBooking"] {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-
 }
 
 .roomItem:first-child {
@@ -229,13 +233,13 @@ img[alt="empty-star"] {
     text-align: left;
     margin-left: 20px;
     margin-top: 23px;
+    margin-bottom: 0;
 }
 
 .bookingBtn {
     background-color: #E3170A;
     width: 179.28px;
     height: 44px;
-    margin-top: 37px;
     border: none;
     border-radius: 5px 5px 5px 5px;
     align-items: center;
@@ -244,7 +248,9 @@ img[alt="empty-star"] {
     line-height: 28.13px;
     gap: 0px;
     opacity: 1px;
-    margin-bottom: -12px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 150px;
 }
 
 .bookingText {
@@ -257,4 +263,42 @@ img[alt="empty-star"] {
     line-height: 18.75px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.storySec {
+    margin-top: 56px;
+    background-color: #011827;
+    height: 500px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.storyText {
+    width: 439px;
+    height: 234px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32.81px;
+    text-align: center;
+    color:#FFFFFF;
+    margin-top: 95px;
+}
+
+.storyBtn {
+    background-color: #011827; 
+    width: 308px;
+    height: 66px;
+    border-radius: 5px;
+    border: 3px solid #8ACFE5; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 28.13px;
+    font-weight: 700px;
+    color: #8ACFE5; 
+    cursor: pointer;
 }
