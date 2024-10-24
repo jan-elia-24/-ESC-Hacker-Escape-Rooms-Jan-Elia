@@ -1,5 +1,5 @@
-body {  
-    margin: 0; 
+body {
+    margin: 0;
     padding: 0;
 }
 
@@ -7,8 +7,8 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    width: 480px; 
-    margin: 0 auto; 
+    width: 480px;
+    margin: 0 auto;
     padding: 0;
     max-width: 100%;
 }
@@ -40,9 +40,9 @@ img[alt="logo"] {
     color: #FFFFFF;
     width: 78px;
     height: 84px;
-    position: relative;  
-    top: 25px;            
-    left: 13px;           
+    position: relative;
+    top: 25px;
+    left: 13px;
     flex-shrink: 0;
 }
 
@@ -55,15 +55,15 @@ img[alt="hackerGuy"] {
     background-color: #8ACFE5;
     width: 308px;
     height: 66px;
-    margin-top: 37px; 
-    border-radius: 5px;  
-    border: none;   
-    display: grid;            
+    margin-top: 37px;
+    border-radius: 5px;
+    border: none;
+    display: grid;
     grid-template-rows: 1fr;
     align-items: center;
-    justify-content: center;    
-    font-size: 24px; 
-    line-height: 28.13px; 
+    justify-content: center;
+    font-size: 24px;
+    line-height: 28.13px;
 }
 
 .btn1Text {
@@ -86,10 +86,10 @@ img[alt="hackerGuy"] {
     margin-top: 30px;
 }
 
-.johnRec{
+.johnRec {
     display: flex;
     flex-direction: row;
-    justify-items:center;
+    justify-items: center;
     margin-top: 67.03px;
     margin-left: 21px;
     margin-right: 20px;
@@ -97,8 +97,8 @@ img[alt="hackerGuy"] {
     height: 139px;
 }
 
-img[alt="johnDoe"]{
-    border-radius: 873px;  
+img[alt="johnDoe"] {
+    border-radius: 873px;
     width: 73.34px;
     height: 72px;
     margin-top: 3px;
@@ -110,7 +110,7 @@ img[alt="johnDoe"]{
     padding-left: 20.2px;
 }
 
-.jdText1{
+.jdText1 {
     width: 343.26px;
     height: 139px;
     font-family: 'Roboto', sans-serif;
@@ -123,7 +123,7 @@ img[alt="johnDoe"]{
     padding: 0;
 }
 
-.jdText2{
+.jdText2 {
     width: 334.09px;
     height: 21px;
     font-family: 'Roboto', sans-serif;
@@ -135,7 +135,7 @@ img[alt="johnDoe"]{
     margin-top: -17px;
 }
 
-.popularChallenges{
+.popularChallenges {
     width: 440px;
     height: 38px;
     font-family: 'Roboto', sans-serif;
@@ -146,29 +146,28 @@ img[alt="johnDoe"]{
     padding-top: 105px;
 }
 
-.roomList{
+.roomList {
     display: flex;
     list-style-type: none;
     flex-direction: row;
-    width: 480px; 
-    overflow-x: scroll; 
+    width: 480px;
+    overflow-x: scroll;
     padding: 0;
     margin: 0;
     justify-content: left;
-
 }
 
 .roomItem {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
     justify-content: start;
     border-radius: 8px;
-    width: 363px; 
-    height: 446px; 
+    width: 363px;
+    height: 446px;
     margin-right: 37.97px;
     padding: 0px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -179,41 +178,83 @@ img[alt="picBooking"] {
 }
 
 .roomItem:first-child {
-    margin-left: 52px; 
+    margin-left: 52px;
 }
 
-.roomTitle{
+.roomTitle {
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 37.5px;
     margin-top: 12px;
-    justify-content: left;
     margin-bottom: 0px;
 }
 
 .ratingScale {
     display: flex;
     flex-direction: row;
-    align-items: center; 
-    gap: 4.82px; 
-    margin-top: 2px; 
-    margin-left: 0;
+    align-items: center;
+    gap: 12px;
+    padding-top: 5px;
+    margin-left: -45px;
 }
 
 img[alt="red-star"],
 img[alt="empty-star"] {
-    width: 15px;
-    height: 18px;
-    border-radius: 8px;
+    width: 18px;
+    height: 20px;
+    object-fit: contain;
+    border-radius: 0;
 }
 
 .ratingText {
-    Width:159px;
-    height: 16px;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
     font-weight: 400;
-    line-height: 16.41px;
+    line-height: 18px;
     text-align: left;
+    margin: 0;
+}
+
+.roomDescription {
+    width: 328px;
+    height: 80px;
+    top: 1269px;
+    left: 70.07px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 23px;
+}
+
+.bookingBtn {
+    background-color: #E3170A;
+    width: 179.28px;
+    height: 44px;
+    margin-top: 37px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 28.13px;
+    gap: 0px;
+    opacity: 1px;
+    margin-bottom: -12px;
+}
+
+.bookingText {
+    width: 110px;
+    height: 19px;
+    gap: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    text-align: center;
+    color: #FFFFFF;
 }
