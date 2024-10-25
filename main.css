@@ -15,7 +15,7 @@ body {
 
 .header {
     background-color: #011827;
-    width: 100%;
+    width: 480px;
     height: 144px;
     margin: 0;
     padding: 0;
@@ -47,7 +47,7 @@ img[alt="logo"] {
 }
 
 img[alt="hackerGuy"] {
-    width: 100%;
+    width: 480px;
     height: 274px;
 }
 
@@ -386,20 +386,22 @@ img[alt="girl-pc"] {
     height: 566px;
     background-color: #011827;
     text-align: left;
+    padding-left: 22px;
+    padding-right: 21px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    padding-bottom: 30px;
 }
 
 .footerInfo {
-    width: 242px;
+    width: 438px;
     height: 21px;
     margin-top: 65px;
-    margin-left: 22px;
-    opacity: 0px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 21.09px;
-    text-align: left;
-    color: #FFFFFF;
+    margin-bottom: 7px;
 }
 
 .infoSpan{
@@ -409,9 +411,5 @@ img[alt="girl-pc"] {
     font-size: 18px;
     font-weight: 400;
     line-height: 21.09px;
-    text-align: left;
-    color: #FFFFFF;
-    margin-left: 22px;
-    margin-right: 50px;
-    justify-content: flex-start;
+    margin-bottom: 0;
     }
