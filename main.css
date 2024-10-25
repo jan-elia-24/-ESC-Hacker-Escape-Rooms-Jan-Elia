@@ -5,7 +5,6 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr;
     justify-items: center;
     width: 480px;
     margin: 0 auto;
@@ -44,6 +43,10 @@ img[alt="logo"] {
     top: 25px;
     left: 13px;
     flex-shrink: 0;
+}
+
+.desktopOnly {
+    display: none;
 }
 
 img[alt="hackerGuy"] {
@@ -412,4 +415,47 @@ img[alt="girl-pc"] {
     font-weight: 400;
     line-height: 21.09px;
     margin-bottom: 0;
+    }
+
+    @media (min-width: 1250px) {
+        .container {
+            grid-template-columns: 2fr; 
+            gap: 0; 
+            padding: 0px;
+        }
+        .header {
+            width: 1280px;
+            height: 216px;
+        }
+
+        .logoText{
+            font-family: 'Roboto', sans-serif;
+            font-size: 40px;
+            line-height: 46.88px;
+            font-weight: 700;
+            color: #FFFFFF;
+            width: 404px;
+            height: 84px;
+            margin-top: 30px;
+        }
+
+        .headerLinks {
+            display: flex;
+            justify-items: left;
+            flex-direction: row;
+            margin-left: -300px;
+        }
+
+        .desktopOnly {
+            display: flex;
+            width: 150px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 28.13px;
+            color: #FFFFFF;
+            margin-top: 166px;
+            padding-right: 114px;
+        }
+        
     }
