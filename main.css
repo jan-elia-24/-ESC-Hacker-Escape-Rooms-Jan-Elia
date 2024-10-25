@@ -268,6 +268,7 @@ img[alt="empty-star"] {
 .storySec {
     margin-top: 56px;
     background-color: #011827;
+    width: 480px;
     height: 500px;
     display: flex; 
     flex-direction: column; 
@@ -301,4 +302,56 @@ img[alt="empty-star"] {
     font-weight: 700px;
     color: #8ACFE5; 
     cursor: pointer;
+}
+
+img[alt="twoHackers"] {
+    width: 480px;
+    height: 300px;
+}
+
+.onsiteToday{
+    text-align: left;
+    margin-left: 20px;
+}
+.mainHeadline{
+    width: 440px;
+    height: 106px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.5px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.bookingInfo{
+    width: 440px;
+    height: 112px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: left;
+    padding-left: 0;
+    margin-top: 10px;
+    padding-top: 0;
+}
+
+.redBtn {
+    font-family: 'Roboto', sans-serif;
+    width: 308px;
+    height: 66px;
+    border-radius: 5px;
+    background-color: #E3170A; 
+    font-size: 24px;
+    line-height: 28.13px;
+    font-weight: 700px;
+    border: none;
+    color: #FFFFFF; 
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+    padding-top: 0;
 }
