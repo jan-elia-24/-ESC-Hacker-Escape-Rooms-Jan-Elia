@@ -549,5 +549,14 @@ img[alt="girl-pc"] {
         text-align: left;
         margin-top: -40px;
     }
+
+    .popularChallenges{
+        margin-top: 10px;
+    }
     
+    .roomList{
+        width: 100%;
+        margin-top: 50px;
+        padding-bottom: 100px;
+    }
 }
