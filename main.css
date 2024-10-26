@@ -14,7 +14,7 @@ body {
 
 .header {
     background-color: #011827;
-    width: 480px;
+    width: 100%;
     height: 144px;
     margin: 0;
     padding: 0;
@@ -45,13 +45,14 @@ img[alt="logo"] {
     flex-shrink: 0;
 }
 
-.desktopOnly {
-    display: none;
+img[alt="hackerGuy"] {
+    width: 100%;    
+    height: 274px;
+    object-fit: cover;
 }
 
-img[alt="hackerGuy"] {
-    width: 480px;
-    height: 274px;
+.desktopOnly {
+    display: none;
 }
 
 .siteBtn {
@@ -276,7 +277,7 @@ img[alt="empty-star"] {
 .storySec {
     margin-top: 56px;
     background-color: #011827;
-    width: 480px;
+    width: 100%;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -313,7 +314,7 @@ img[alt="empty-star"] {
 }
 
 img[alt="twoHackers"] {
-    width: 480px;
+    width: 100%;
     height: 300px;
 }
 
@@ -332,7 +333,7 @@ img[alt="twoHackers"] {
     text-align: left;
     margin-top: 30px;
     margin-bottom: 0;
-    padding-bottom: 0;
+    padding-left: 0;
 }
 
 .bookingInfo {
@@ -368,7 +369,7 @@ img[alt="twoHackers"] {
 }
 
 img[alt="girl-pc"] {
-    width: 480px;
+    width: 100%;
     height: 300px;
 }
 
@@ -431,7 +432,7 @@ img[alt="girl-pc"] {
 
 @media (min-width: 1250px) {
     .container {
-        grid-template-columns: 2fr;
+        grid-template-columns: auto;
         gap: 0;
         padding: 0px;
     }
@@ -558,5 +559,68 @@ img[alt="girl-pc"] {
         width: 100%;
         margin-top: 50px;
         padding-bottom: 100px;
+    }
+
+    .storySec{
+        width: 1280px;
+        height: 500px;
+        justify-content: center;
+        }
+
+    .storyText{
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 32.81px;
+        text-align: center;
+        margin-top: 20px;
+        width: 632px;
+        height: 169px;
+    }
+
+    img[alt="twoHackers"] {
+        width: 640px;
+        height: 460px;
+        padding-left: 0;
+        margin-left: -640px;   
+    }
+
+    .onsiteToday{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: 460px;
+        margin-top: -450px;
+        margin-left: 600px;
+    }
+
+    .mainHeadline{
+        width: 416px;
+        height: 106px;
+        padding-bottom: 20px;
+    }
+
+    .booking-Info{
+        width: 416px;
+        height: 112px;
+        font-size: 24px;
+        line-height: 13px;
+        margin-bottom: 50px;
+    }
+
+    img[alt="girl-pc"] {
+        width: 640px;
+        height: 460px;
+        padding-left: 0;
+        margin-left: 640px;   
+        margin-top: -10px;
+    }
+
+    .challengeSec{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-top: -450px;
+        margin-left: -600px;
     }
 }
