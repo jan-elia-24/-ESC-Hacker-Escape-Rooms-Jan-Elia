@@ -138,6 +138,10 @@ img[alt="johnDoe"] {
     margin-top: -17px;
 }
 
+.johnRec2{
+    display: none;
+}
+
 .popularChallenges {
     width: 440px;
     height: 38px;
@@ -503,10 +507,47 @@ img[alt="girl-pc"] {
         margin-left: 450px;
     }
 
-    /*.desktopBtns{
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-    justify-content: center;
-    }*/
+    .johnRec, .johnRec2 {
+        width: 520px;   
+        height: 141px; 
+        display: flex; 
+    }
+
+    .johnRec{
+        margin-left: -440px;
+    }
+
+    .johnRec2{
+        margin-left: 660px;
+        margin-top: -140px;
+    }
+
+    .johnRec2 img {
+        width: 96px; 
+        height: 96px; 
+    }
+
+    .johnRec img {
+        width: 96px; 
+        height: 96px; 
+    }
+    
+    .jdText1 {
+        font-family: 'Roboto', sans-serif;
+        width: 409px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;   
+    }
+    
+    .jdText2 {
+        font-family: 'Roboto', sans-serif;
+        width: 285.38px;        
+        font-weight: 400;
+        line-height: 21.09px;
+        text-align: left;
+        margin-top: -40px;
+    }
+    
 }
