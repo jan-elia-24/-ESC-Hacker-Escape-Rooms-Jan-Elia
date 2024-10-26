@@ -154,13 +154,13 @@ img[alt="johnDoe"] {
     list-style-type: none;
     flex-direction: row;
     width: 480px;
-    overflow: hidden; 
+    overflow: hidden;
     padding: 0;
     margin: 0;
 }
 
 .roomList:hover {
-    overflow-x: auto; 
+    overflow-x: auto;
 }
 
 .roomItem {
@@ -174,10 +174,11 @@ img[alt="johnDoe"] {
     margin-right: 37.97px;
     padding-bottom: 0px;
     margin-bottom: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 
-    0px -4px 8px rgba(0, 0, 0, 0.1), 
-    4px 0px 8px rgba(0, 0, 0, 0.1),
-    -4px 0px 8px rgba(0, 0, 0, 0.1);}
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1),
+        0px -4px 8px rgba(0, 0, 0, 0.1),
+        4px 0px 8px rgba(0, 0, 0, 0.1),
+        -4px 0px 8px rgba(0, 0, 0, 0.1);
+}
 
 img[alt="picBooking"] {
     border-top-left-radius: 8px;
@@ -273,10 +274,10 @@ img[alt="empty-star"] {
     background-color: #011827;
     width: 480px;
     height: 500px;
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .storyText {
@@ -287,23 +288,23 @@ img[alt="empty-star"] {
     font-weight: 400;
     line-height: 32.81px;
     text-align: center;
-    color:#FFFFFF;
+    color: #FFFFFF;
     margin-top: 95px;
 }
 
 .storyBtn {
-    background-color: #011827; 
+    background-color: #011827;
     width: 308px;
     height: 66px;
     border-radius: 5px;
-    border: 3px solid #8ACFE5; 
+    border: 3px solid #8ACFE5;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 24px;
     line-height: 28.13px;
     font-weight: 700px;
-    color: #8ACFE5; 
+    color: #8ACFE5;
     cursor: pointer;
 }
 
@@ -312,11 +313,12 @@ img[alt="twoHackers"] {
     height: 300px;
 }
 
-.onsiteToday{
+.onsiteToday {
     text-align: left;
     margin-left: 20px;
 }
-.mainHeadline{
+
+.mainHeadline {
     width: 440px;
     height: 106px;
     font-family: 'Roboto', sans-serif;
@@ -329,7 +331,7 @@ img[alt="twoHackers"] {
     padding-bottom: 0;
 }
 
-.bookingInfo{
+.bookingInfo {
     width: 440px;
     height: 112px;
     font-family: 'Roboto', sans-serif;
@@ -347,12 +349,12 @@ img[alt="twoHackers"] {
     width: 308px;
     height: 66px;
     border-radius: 5px;
-    background-color: #E3170A; 
+    background-color: #E3170A;
     font-size: 24px;
     line-height: 28.13px;
     font-weight: 700px;
     border: none;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     cursor: pointer;
     align-items: center;
     justify-content: center;
@@ -407,7 +409,7 @@ img[alt="girl-pc"] {
     margin-bottom: 7px;
 }
 
-.infoSpan{
+.infoSpan {
     font-family: 'Roboto', sans-serif;
     width: 439px;
     height: 83px;
@@ -415,47 +417,63 @@ img[alt="girl-pc"] {
     font-weight: 400;
     line-height: 21.09px;
     margin-bottom: 0;
+}
+
+@media (max-width: 1249px ) {
+    img[alt="hackerGuyn"] {
+        display: none;
+    }
+}
+
+@media (min-width: 1250px) {
+    .container {
+        grid-template-columns: 2fr;
+        gap: 0;
+        padding: 0px;
     }
 
-    @media (min-width: 1250px) {
-        .container {
-            grid-template-columns: 2fr; 
-            gap: 0; 
-            padding: 0px;
-        }
-        .header {
-            width: 1280px;
-            height: 216px;
-        }
-
-        .logoText{
-            font-family: 'Roboto', sans-serif;
-            font-size: 40px;
-            line-height: 46.88px;
-            font-weight: 700;
-            color: #FFFFFF;
-            width: 404px;
-            height: 84px;
-            margin-top: 30px;
-        }
-
-        .headerLinks {
-            display: flex;
-            justify-items: left;
-            flex-direction: row;
-            margin-left: -300px;
-        }
-
-        .desktopOnly {
-            display: flex;
-            width: 150px;
-            font-family: 'Roboto', sans-serif;
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 28.13px;
-            color: #FFFFFF;
-            margin-top: 166px;
-            padding-right: 114px;
-        }
-        
+    .header {
+        width: 1280px;
+        height: 216px;
     }
+
+    .logoText {
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        line-height: 46.88px;
+        font-weight: 700;
+        color: #FFFFFF;
+        width: 404px;
+        height: 84px;
+        margin-top: 30px;
+    }
+
+    .headerLinks {
+        display: flex;
+        justify-items: left;
+        flex-direction: row;
+        margin-left: -300px;
+    }
+
+    .desktopOnly {
+        display: flex;
+        width: 135px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28.13px;
+        color: #FFFFFF;
+        margin-top: 166px;
+        padding-right: 114px;
+    }
+
+    img[alt="hackerGuy"] {
+        display: none;
+    }
+
+    img[alt="hackerGuyn"] {
+        width: 1280px;
+        height: 468px;
+        object-fit: cover;
+    }
+}
