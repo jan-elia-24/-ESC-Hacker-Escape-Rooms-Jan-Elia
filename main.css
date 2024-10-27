@@ -416,7 +416,10 @@ img[alt="girl-pc"] {
     margin-bottom: 7px;
 }
 
-.infoSpan, .infoSpan1, .infoSpan2, .infoSpan3 {
+.infoSpan,
+.infoSpan1,
+.infoSpan2,
+.infoSpan3 {
     font-family: 'Roboto', sans-serif;
     width: 439px;
     height: 83px;
@@ -649,8 +652,8 @@ img[alt="girl-pc"] {
         flex-direction: row;
         justify-content: center;
     }
-   
-    .infoSpan{
+
+    .infoSpan {
         width: 416px;
         height: 250px;
         gap: 0px;
@@ -660,25 +663,25 @@ img[alt="girl-pc"] {
         font-weight: 400;
         line-height: 21.09px;
         text-align: left;
-    }  
+    }
 
-    .footer-section1{
+    .footer-section1 {
         text-align: left;
         margin-left: 300px;
         padding-top: 120px;
         width: 416px;
         margin-right: 300px;
     }
-    
-    .footer-section2{
+
+    .footer-section2 {
         padding-top: 120px;
         text-align: left;
         display: flex;
         flex-direction: column;
-        margin-right: -200px;    
+        margin-right: -200px;
     }
-    
-    .footer-section3{
+
+    .footer-section3 {
         padding-top: 120px;
         text-align: left;
         display: flex;
@@ -686,11 +689,11 @@ img[alt="girl-pc"] {
         margin-right: 0;
     }
 
-    .infoSpan1{
+    .infoSpan1 {
         margin-bottom: -60px;
     }
 
-    .infoSpan2{
+    .infoSpan2 {
         margin-top: 30px;
         margin-bottom: -58px;
         padding-top: 0;
