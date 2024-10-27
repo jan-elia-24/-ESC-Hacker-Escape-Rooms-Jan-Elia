@@ -416,7 +416,7 @@ img[alt="girl-pc"] {
     margin-bottom: 7px;
 }
 
-.infoSpan {
+.infoSpan, .infoSpan1, .infoSpan2, .infoSpan3 {
     font-family: 'Roboto', sans-serif;
     width: 439px;
     height: 83px;
@@ -648,16 +648,8 @@ img[alt="girl-pc"] {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        text-align: center;
     }
-    
-    .footer-section1{
-        text-align: left;
-        margin-left: 180px;
-        padding-top: 120px;
-        width: 416px;
-
-    }
+   
     .infoSpan{
         width: 416px;
         height: 250px;
@@ -669,4 +661,39 @@ img[alt="girl-pc"] {
         line-height: 21.09px;
         text-align: left;
     }  
+
+    .footer-section1{
+        text-align: left;
+        margin-left: 300px;
+        padding-top: 120px;
+        width: 416px;
+        margin-right: 300px;
+    }
+    
+    .footer-section2{
+        padding-top: 120px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        margin-right: -200px;    
+    }
+    
+    .footer-section3{
+        padding-top: 120px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .infoSpan1{
+        margin-bottom: -60px;
+    }
+
+    .infoSpan2{
+        margin-top: 30px;
+        margin-bottom: -90px;
+        padding-top: 0;
+        padding-bottom: -150px;
+    }
 }
