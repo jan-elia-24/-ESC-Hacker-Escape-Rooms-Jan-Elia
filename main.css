@@ -732,16 +732,16 @@ img[alt="girl-pc"] {
         transition: opacity 0.3s ease-in-out;
         z-index: 2; 
         border: 1px;  
-        overflow-y: auto;
     }
 
     .menuItem {
         font-size: 36px;  
         color: white;  
         text-align: center;  
-        margin: 70px 70px;   
+        margin: 80px 80px;   
         line-height: 42.19px;
         font-family: 'Roboto', sans-serif;
+        padding: 0px;
     }
 
     .menu.fade-in {

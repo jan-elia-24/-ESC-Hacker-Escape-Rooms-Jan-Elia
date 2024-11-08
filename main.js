@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+// The functions
 // Function to create the menu
 function createMenu(menuItems) {
     const menu = document.createElement('div');
