@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const menuBtn = document.querySelector('.menubtn');
-    const menuItems = ['Play online', 'Play on-site', 'The story', 'Contact Us'];
+    const menuItems = ['Play online', 'Play on-site', 'The story', 'Contact'];
 
     // Create a new div for the menu
     const menu = createMenu(menuItems);

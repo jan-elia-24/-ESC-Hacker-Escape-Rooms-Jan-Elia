@@ -719,18 +719,16 @@ img[alt="girl-pc"] {
     .menu {
         position: fixed;
         top: 50%;
-        left: 51.8%;
+        left: 51.7%;
         transform: translate(-50%, -50%);
         width: 480px;
         height: 95%;  
         max-height: 100vh;
-        border-radius: 5;
         background-color: #011827;
         color: white;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        opacity: 0;
         transition: opacity 0.3s ease-in-out;
         z-index: 2; 
         border: 1px;  
